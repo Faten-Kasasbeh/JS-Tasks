@@ -4,5 +4,5 @@ function odd(x){
         else{output=" true";}
         return output;
 }
-var a=15;
+var a=20;
 document.write("the number :"+ a +odd(a));

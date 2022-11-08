@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select id="font" onchange="fontty()">
+        <option value="arial">Arial</option>
+        <option value="Lucida">Lucida Console</option>
+        <option value="Times">Times New Roman</option>
+      </select>
+
+      <select id="size" onchange="sizeFont()">
+        <option value="small">12pt</option>
+        <option value="medeum">20pt</option>
+        <option value="big">30pt</option>
+      </select>
+      <input type="checkbox" id="icheck" onchange="icheck()">italic
+      <input type="checkbox" id="bcheck" onchange="bcheck()">bold
+      <input type="checkbox" id="uncheck" onchange="uncheck()">udnerline
+      <br>
+   <div style="height: 200px; width: 900px; border: 3px solid black;"> 
+    <span id="text" style=" font-family:Arial, Helvetica, sans-serif;"> The quick brown fox jumps over the lazy dog</span>
+</div> 
+<script src="task3.js"></script>
+</body>
+</html>

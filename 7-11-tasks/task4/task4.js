@@ -6,4 +6,5 @@ document.write("The age is: "+x.lastName +"<br>");
 document.write("The Age is: "+x.age+"<br>")
 document.write("The salary is: "+x.salary +"<br>")
 }
+
 information(obj);
