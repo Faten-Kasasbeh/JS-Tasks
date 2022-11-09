@@ -1,6 +1,6 @@
 
 function countries(){
-if( document.getElementById("flags").value=="jordan"){
+if( document.getElementById("flags").value=="Jordan"){
     document.getElementById("flag").src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/150px-Flag_of_Jordan.svg.png";
 }
 else if( document.getElementById("flags").value =="KSA"){
