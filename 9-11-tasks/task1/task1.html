@@ -7,56 +7,48 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <label for="name">Name:</label>
-        <input type="text" id="name"><br>
-        <label for="age">Age:</label>
-        <input type="number" id="age"><br>
-        <label for="gender">Gender</label> 
-      
-      
-        <label for="mail" class="inline">mail</label>
-        <input name="genderRadio" type="radio" id="mail" value="mail">
-        <label for="femail" class="inline">femail</label>
-        <input name="genderRadio" type="radio" id="femail" value="femail"><br>
-
-
-
-        <label for="textareaD">About you</label>
-        <textarea name="textareaD" id="textareaD" ></textarea><br>
-        <label for="major">Major</label>
-        <input type="text" id="major"><br>
-
-
-        <label for="">Preferd languges</label>
-        <label for="html" class="inline">Html</label>
-        <input type="checkbox" id="html" value="html ">
-        <label for="css" class="inline">CSS</label>
-        <input type="checkbox" id="css" value="css ">
-        <label for="js" class="inline">JavaScript</label>
-        <input type="checkbox" id="js" value="javaScript "><br>
-        
-
-    </form>
-    <input type="submit" id="submit" onclick="formSave()">
-
-
-    <div id="card" style="display: none ; background-color: antiquewhite;">
-        <label for="">Name:</label>
-        <span id="nameAfter"></span><br>
-        <label for="">Age:</label>
-        <span id="ageAfter"></span><br>
-        <label for="">Gender:</label>
-        <span id="genderAfter"></span><br>
-        <label for="">Description:</label>
-        <span id="descriptionAfter"></span><br>
-        <label for="">Major:</label>
-        <span id="majorAfter"></span><br>
-        <label for="">Preferd languges:</label>
-        <span id="preferdAfter"></span>
-        
-
+    <table>
+        <tr>
+            <td>Your Name</td>
+            <td><input type="text" id="info1"></td>
+        </tr>
+        <tr>
+            <td>Your Age</td>
+            <td><input type="text" id="info2" ></td>
+        </tr>
+        <tr>
+            <td>Female <input type="radio" name="gender" id="female"></td>
+            <td>Male <input type="radio" name="gender" id="male"></td>
+        </tr>
+        <tr>
+            <td>About You</td>
+            <td><input type="text" id="info3"></td>
+        </tr>
+        <tr>
+            <td>University</td>
+            <td><input type="text" id="info4"></td>
+        </tr>
+        <tr>
+            <td>Major</td>
+            <td><input type="text" id="info5"></td>
+        </tr>
+        <tr>
+            <td>Programming Langueges</td>
+            <td>HTML <input type="checkbox" id="html"></td>
+            <td>CSS <input type="checkbox" id="css"></td>
+            <td>JS <input type="checkbox" id="js"></td>
+        </tr>
+    </table>
+    <button id="submet" onclick="submet()">Submet</button>
+    <div id="card" style="width: 500px; background-color: blanchedalmond; display: none;">
+        <p id="card1">Name : </p>
+        <p id="card2">Age : </p>
+        <p id="card3">About  </p>
+        <p id="card4">University  </p>
+        <p id="card5">Major   </p>
+        <p id="card6">Gender  </p>
+        <p id="card7">Langueges   </p>
     </div>
-    <script src="task1.js"></script> 
+    <script src="task1.js"></script>
 </body>
-</html>
+</html> 
